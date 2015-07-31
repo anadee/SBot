@@ -1,0 +1,2263 @@
+[
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "[Lga;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gt",
+        "fieldName": "o",
+        "member": true,
+        "multiplier": 0,
+        "name": "getCache",
+        "nonPrimitive": true,
+        "signature": "[Lorg/sbot/runetek/engine/collection/INode;"
+      },
+      {
+        "actualSig": "Lga;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gt",
+        "fieldName": "w",
+        "member": true,
+        "multiplier": 0,
+        "name": "getCurrent",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/INode;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gt",
+        "fieldName": "m",
+        "member": true,
+        "multiplier": 0,
+        "name": "getCurrentIndex",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Lga;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gt",
+        "fieldName": "a",
+        "member": true,
+        "multiplier": 0,
+        "name": "getHead",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/INode;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gt",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 0,
+        "name": "getSize",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.collection.IBag",
+    "methods": [],
+    "originalName": "gt"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lcn;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cg",
+        "fieldName": "h",
+        "member": true,
+        "multiplier": 0,
+        "name": "getBackupRenderable",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/IRenderable;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cg",
+        "fieldName": "l",
+        "member": true,
+        "multiplier": -1544408955,
+        "name": "getFlags",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cg",
+        "fieldName": "r",
+        "member": true,
+        "multiplier": -1209998417,
+        "name": "getHash",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cg",
+        "fieldName": "w",
+        "member": true,
+        "multiplier": 1148148815,
+        "name": "getOrientation",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Lcn;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cg",
+        "fieldName": "i",
+        "member": true,
+        "multiplier": 0,
+        "name": "getRenderable",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/IRenderable;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cg",
+        "fieldName": "o",
+        "member": true,
+        "multiplier": -955073361,
+        "name": "getX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cg",
+        "fieldName": "a",
+        "member": true,
+        "multiplier": -1387002201,
+        "name": "getY",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.scene.tile.IBoundaryObject",
+    "methods": [],
+    "originalName": "cg"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "dl",
+        "fieldName": "o",
+        "member": true,
+        "multiplier": 1736753585,
+        "name": "getOffset",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "[B",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "dl",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 0,
+        "name": "getPayload",
+        "nonPrimitive": false,
+        "signature": "[B"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.IBuffer",
+    "methods": [],
+    "originalName": "dl"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lgt;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gx",
+        "fieldName": "w",
+        "member": true,
+        "multiplier": 0,
+        "name": "getBag",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/IBag;"
+      },
+      {
+        "actualSig": "Lgo;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gx",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 0,
+        "name": "getEmptyCacheableNode",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/ICacheableNode;"
+      },
+      {
+        "actualSig": "Lgj;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gx",
+        "fieldName": "m",
+        "member": true,
+        "multiplier": 0,
+        "name": "getQueue",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/IQueue;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.collection.ICache",
+    "methods": [],
+    "originalName": "gx"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lgo;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "go",
+        "fieldName": "cg",
+        "member": true,
+        "multiplier": 0,
+        "name": "getNext",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/ICacheableNode;"
+      },
+      {
+        "actualSig": "Lgo;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "go",
+        "fieldName": "cv",
+        "member": true,
+        "multiplier": 0,
+        "name": "getPrevious",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/ICacheableNode;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.collection.ICacheableNode",
+    "methods": [],
+    "originalName": "go"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Ljava/awt/Component;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ey",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 0,
+        "name": "getComponent",
+        "nonPrimitive": false,
+        "signature": "Ljava/awt/Component;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.input.ICanvas",
+    "methods": [],
+    "originalName": "ey"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "l",
+        "fieldName": "cf",
+        "member": false,
+        "multiplier": -1719983039,
+        "name": "getBaseX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "w",
+        "fieldName": "cm",
+        "member": false,
+        "multiplier": 803568843,
+        "name": "getBaseY",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ap",
+        "fieldName": "fc",
+        "member": false,
+        "multiplier": -1967123133,
+        "name": "getCameraPitch",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ea",
+        "fieldName": "fd",
+        "member": false,
+        "multiplier": 113597655,
+        "name": "getCameraX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fd",
+        "fieldName": "fy",
+        "member": false,
+        "multiplier": -1557542191,
+        "name": "getCameraY",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ca",
+        "fieldName": "fo",
+        "member": false,
+        "multiplier": 167182419,
+        "name": "getCameraYaw",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "aa",
+        "fieldName": "fk",
+        "member": false,
+        "multiplier": 681386919,
+        "name": "getCameraZ",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Ljava/awt/Canvas;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "dj",
+        "fieldName": "qy",
+        "member": false,
+        "multiplier": 0,
+        "name": "getCanvas",
+        "nonPrimitive": false,
+        "signature": "Ljava/awt/Canvas;"
+      },
+      {
+        "actualSig": "[Lhz;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "w",
+        "member": false,
+        "multiplier": 0,
+        "name": "getCollisionMap",
+        "nonPrimitive": true,
+        "signature": "[Lorg/sbot/runetek/engine/scene/ICollisionMap;"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "h",
+        "fieldName": "s",
+        "member": false,
+        "multiplier": 0,
+        "name": "getCosineTable",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "ol",
+        "member": false,
+        "multiplier": 0,
+        "name": "getGameSettings",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "Lgx;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ad",
+        "fieldName": "r",
+        "member": false,
+        "multiplier": 0,
+        "name": "getItemCompositeCache",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/ICache;"
+      },
+      {
+        "actualSig": "Ldq;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "dq",
+        "fieldName": "n",
+        "member": false,
+        "multiplier": 0,
+        "name": "getKeyboard",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/input/IKeyboard;"
+      },
+      {
+        "actualSig": "La;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "a",
+        "fieldName": "hv",
+        "member": false,
+        "multiplier": 0,
+        "name": "getLocalPlayer",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/entity/IPlayer;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "s",
+        "member": false,
+        "multiplier": -684224463,
+        "name": "getLoginIndex",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "d",
+        "member": false,
+        "multiplier": 1026470457,
+        "name": "getLoopCycle",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "[[[Lgc;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "hj",
+        "member": false,
+        "multiplier": 0,
+        "name": "getLoot",
+        "nonPrimitive": true,
+        "signature": "[[[Lorg/sbot/runetek/engine/collection/IDeque;"
+      },
+      {
+        "actualSig": "[Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "iw",
+        "member": false,
+        "multiplier": 0,
+        "name": "getMenuActions",
+        "nonPrimitive": false,
+        "signature": "[Ljava/lang/String;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "is",
+        "member": false,
+        "multiplier": 1324290403,
+        "name": "getMenuCount",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "ih",
+        "member": false,
+        "multiplier": -2090618933,
+        "name": "getMenuHeight",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Z",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "ht",
+        "member": false,
+        "multiplier": 0,
+        "name": "getMenuOpen",
+        "nonPrimitive": false,
+        "signature": "Z"
+      },
+      {
+        "actualSig": "[Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "iu",
+        "member": false,
+        "multiplier": 0,
+        "name": "getMenuOptions",
+        "nonPrimitive": false,
+        "signature": "[Ljava/lang/String;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "an",
+        "fieldName": "hr",
+        "member": false,
+        "multiplier": 1712819025,
+        "name": "getMenuWidth",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "b",
+        "fieldName": "hi",
+        "member": false,
+        "multiplier": 681506315,
+        "name": "getMenuX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "z",
+        "fieldName": "hs",
+        "member": false,
+        "multiplier": 1953108583,
+        "name": "getMenuY",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "fe",
+        "member": false,
+        "multiplier": -1072839225,
+        "name": "getMinimapAngle",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "eh",
+        "member": false,
+        "multiplier": 461573195,
+        "name": "getMinimapOffset",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "fq",
+        "member": false,
+        "multiplier": 1415836059,
+        "name": "getMinimapScale",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Lea;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ea",
+        "fieldName": "n",
+        "member": false,
+        "multiplier": 0,
+        "name": "getMouse",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/input/IMouse;"
+      },
+      {
+        "actualSig": "Lgx;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ap",
+        "fieldName": "a",
+        "member": false,
+        "multiplier": 0,
+        "name": "getNpcCompositeCache",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/ICache;"
+      },
+      {
+        "actualSig": "[Laj;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "cn",
+        "member": false,
+        "multiplier": 0,
+        "name": "getNpcs",
+        "nonPrimitive": true,
+        "signature": "[Lorg/sbot/runetek/engine/renderable/entity/INpc;"
+      },
+      {
+        "actualSig": "Lgx;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ar",
+        "fieldName": "w",
+        "member": false,
+        "multiplier": 0,
+        "name": "getObjectCompositeCache",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/ICache;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "av",
+        "fieldName": "hh",
+        "member": false,
+        "multiplier": -1093536619,
+        "name": "getPlane",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "[La;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "gk",
+        "member": false,
+        "multiplier": 0,
+        "name": "getPlayers",
+        "nonPrimitive": true,
+        "signature": "[Lorg/sbot/runetek/engine/renderable/entity/IPlayer;"
+      },
+      {
+        "actualSig": "Lgc;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "ha",
+        "member": false,
+        "multiplier": 0,
+        "name": "getProjectiles",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/IDeque;"
+      },
+      {
+        "actualSig": "Lcs;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "b",
+        "fieldName": "dr",
+        "member": false,
+        "multiplier": 0,
+        "name": "getScene",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/scene/IScene;"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "of",
+        "member": false,
+        "multiplier": 0,
+        "name": "getSettings",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "h",
+        "fieldName": "s",
+        "member": false,
+        "multiplier": 0,
+        "name": "getSineTable",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "hn",
+        "member": false,
+        "multiplier": 0,
+        "name": "getSkillBases",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "hf",
+        "member": false,
+        "multiplier": 0,
+        "name": "getSkillExperiences",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "hg",
+        "member": false,
+        "multiplier": 0,
+        "name": "getSkillLevels",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[[[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "h",
+        "fieldName": "n",
+        "member": false,
+        "multiplier": 0,
+        "name": "getTileHeights",
+        "nonPrimitive": false,
+        "signature": "[[[I"
+      },
+      {
+        "actualSig": "[[[B",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "h",
+        "fieldName": "o",
+        "member": false,
+        "multiplier": 0,
+        "name": "getTileSettings",
+        "nonPrimitive": false,
+        "signature": "[[[B"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "lr",
+        "member": false,
+        "multiplier": 0,
+        "name": "getWidgetBoundsHeight",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "lv",
+        "member": false,
+        "multiplier": 0,
+        "name": "getWidgetBoundsWidth",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "ls",
+        "member": false,
+        "multiplier": 0,
+        "name": "getWidgetBoundsX",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "ld",
+        "member": false,
+        "multiplier": 0,
+        "name": "getWidgetBoundsY",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "Lgt;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "client",
+        "fieldName": "jd",
+        "member": false,
+        "multiplier": 0,
+        "name": "getWidgetNodeBag",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/IBag;"
+      },
+      {
+        "actualSig": "[[Lfq;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "n",
+        "member": false,
+        "multiplier": 0,
+        "name": "getWidgets",
+        "nonPrimitive": true,
+        "signature": "[[Lorg/sbot/runetek/engine/media/IWidget;"
+      },
+      {
+        "actualSig": "[Ly;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ao",
+        "fieldName": "m",
+        "member": false,
+        "multiplier": 0,
+        "name": "getWorlds",
+        "nonPrimitive": true,
+        "signature": "[Lorg/sbot/runetek/engine/IWorld;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.IClient",
+    "methods": [],
+    "originalName": "client"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "[[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "hz",
+        "fieldName": "an",
+        "member": true,
+        "multiplier": 0,
+        "name": "getFlags",
+        "nonPrimitive": false,
+        "signature": "[[I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.scene.ICollisionMap",
+    "methods": [],
+    "originalName": "hz"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lga;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gc",
+        "fieldName": "o",
+        "member": true,
+        "multiplier": 0,
+        "name": "getCurrent",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/INode;"
+      },
+      {
+        "actualSig": "Lga;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gc",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 0,
+        "name": "getHead",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/INode;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.collection.IDeque",
+    "methods": [],
+    "originalName": "gc"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "bj",
+        "member": true,
+        "multiplier": 1287875615,
+        "name": "getAnimationId",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "bw",
+        "member": true,
+        "multiplier": -1429276161,
+        "name": "getHealth",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "at",
+        "member": true,
+        "multiplier": 0,
+        "name": "getHitCycles",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "ay",
+        "member": true,
+        "multiplier": 0,
+        "name": "getHitDamages",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "ab",
+        "member": true,
+        "multiplier": 0,
+        "name": "getHitTypes",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "ad",
+        "member": true,
+        "multiplier": 1253370921,
+        "name": "getInteractingIndex",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "j",
+        "member": true,
+        "multiplier": -844883935,
+        "name": "getLocalX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "j",
+        "member": true,
+        "multiplier": -844883935,
+        "name": "getLocalY",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "bk",
+        "member": true,
+        "multiplier": 1026470457,
+        "name": "getLoopCycleStatus",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "aa",
+        "member": true,
+        "multiplier": -395756117,
+        "name": "getMaxHealth",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "ac",
+        "member": true,
+        "multiplier": 0,
+        "name": "getMessage",
+        "nonPrimitive": false,
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "bx",
+        "member": true,
+        "multiplier": -1099823629,
+        "name": "getOrientation",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "bw",
+        "member": true,
+        "multiplier": -1429276161,
+        "name": "getQueueLength",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "[Z",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "bn",
+        "member": true,
+        "multiplier": 0,
+        "name": "getQueueTraversed",
+        "nonPrimitive": false,
+        "signature": "[Z"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "bz",
+        "member": true,
+        "multiplier": 0,
+        "name": "getQueueX",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "al",
+        "fieldName": "bz",
+        "member": true,
+        "multiplier": 0,
+        "name": "getQueueY",
+        "nonPrimitive": false,
+        "signature": "[I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.renderable.entity.IEntity",
+    "methods": [],
+    "originalName": "al"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cr",
+        "fieldName": "h",
+        "member": true,
+        "multiplier": -42000167,
+        "name": "getFlags",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cr",
+        "fieldName": "m",
+        "member": true,
+        "multiplier": 714830667,
+        "name": "getHash",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Lcn;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cr",
+        "fieldName": "w",
+        "member": true,
+        "multiplier": 0,
+        "name": "getRenderable",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/IRenderable;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cr",
+        "fieldName": "o",
+        "member": true,
+        "multiplier": 740386361,
+        "name": "getX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cr",
+        "fieldName": "a",
+        "member": true,
+        "multiplier": -16439423,
+        "name": "getY",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.scene.tile.IFloorObject",
+    "methods": [],
+    "originalName": "cr"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lcn;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ca",
+        "fieldName": "w",
+        "member": true,
+        "multiplier": 0,
+        "name": "getRenderable1",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/IRenderable;"
+      },
+      {
+        "actualSig": "Lcn;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ca",
+        "fieldName": "m",
+        "member": true,
+        "multiplier": 0,
+        "name": "getRenderable2",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/IRenderable;"
+      },
+      {
+        "actualSig": "Lcn;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ca",
+        "fieldName": "w",
+        "member": true,
+        "multiplier": 0,
+        "name": "getRenderable3",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/IRenderable;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.scene.tile.IGroundLayer",
+    "methods": [],
+    "originalName": "ca"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ck",
+        "fieldName": "x",
+        "member": true,
+        "multiplier": -924305457,
+        "name": "getFlags",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ck",
+        "fieldName": "v",
+        "member": true,
+        "multiplier": 2064355509,
+        "name": "getHash",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ck",
+        "fieldName": "m",
+        "member": true,
+        "multiplier": -1282494253,
+        "name": "getOrientation",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Lcn;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ck",
+        "fieldName": "h",
+        "member": true,
+        "multiplier": 0,
+        "name": "getRenderable",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/IRenderable;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ck",
+        "fieldName": "a",
+        "member": true,
+        "multiplier": 1753592201,
+        "name": "getX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ck",
+        "fieldName": "w",
+        "member": true,
+        "multiplier": 1772978721,
+        "name": "getY",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.scene.tile.IInteractableObject",
+    "methods": [],
+    "originalName": "ck"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "[Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ad",
+        "fieldName": "aq",
+        "member": true,
+        "multiplier": 0,
+        "name": "getGroundActions",
+        "nonPrimitive": false,
+        "signature": "[Ljava/lang/String;"
+      },
+      {
+        "actualSig": "[Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ad",
+        "fieldName": "ag",
+        "member": true,
+        "multiplier": 0,
+        "name": "getInventoryActions",
+        "nonPrimitive": false,
+        "signature": "[Ljava/lang/String;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ad",
+        "fieldName": "v",
+        "member": true,
+        "multiplier": -1065714201,
+        "name": "getModelId",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ad",
+        "fieldName": "x",
+        "member": true,
+        "multiplier": 0,
+        "name": "getName",
+        "nonPrimitive": false,
+        "signature": "Ljava/lang/String;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.cache.composite.IItemComposite",
+    "methods": [],
+    "originalName": "ad"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [],
+    "identifiedName": "org.sbot.runetek.engine.input.IKeyboard",
+    "methods": [],
+    "originalName": "dq"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "av",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 1500342151,
+        "name": "getId",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "av",
+        "fieldName": "o",
+        "member": true,
+        "multiplier": 640802101,
+        "name": "getStackSize",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.renderable.ILoot",
+    "methods": [],
+    "originalName": "av"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cp",
+        "fieldName": "j",
+        "member": true,
+        "multiplier": 0,
+        "name": "getTrianglesX",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cp",
+        "fieldName": "k",
+        "member": true,
+        "multiplier": 0,
+        "name": "getTrianglesY",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cp",
+        "fieldName": "y",
+        "member": true,
+        "multiplier": 0,
+        "name": "getTrianglesZ",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cp",
+        "fieldName": "h",
+        "member": true,
+        "multiplier": 0,
+        "name": "getVerticesX",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cp",
+        "fieldName": "i",
+        "member": true,
+        "multiplier": 0,
+        "name": "getVerticesY",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cp",
+        "fieldName": "r",
+        "member": true,
+        "multiplier": 0,
+        "name": "getVerticesZ",
+        "nonPrimitive": false,
+        "signature": "[I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.cache.media.IModel",
+    "methods": [],
+    "originalName": "cp"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [],
+    "identifiedName": "org.sbot.runetek.engine.input.IMouse",
+    "methods": [],
+    "originalName": "ea"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lga;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ga",
+        "fieldName": "er",
+        "member": true,
+        "multiplier": 0,
+        "name": "getNext",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/INode;"
+      },
+      {
+        "actualSig": "Lga;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ga",
+        "fieldName": "eg",
+        "member": true,
+        "multiplier": 0,
+        "name": "getPrevious",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/INode;"
+      },
+      {
+        "actualSig": "J",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ga",
+        "fieldName": "el",
+        "member": true,
+        "multiplier": 0,
+        "name": "getUID",
+        "nonPrimitive": false,
+        "signature": "J"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.collection.INode",
+    "methods": [],
+    "originalName": "ga"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "[Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ap",
+        "fieldName": "d",
+        "member": true,
+        "multiplier": 0,
+        "name": "getActions",
+        "nonPrimitive": false,
+        "signature": "[Ljava/lang/String;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ap",
+        "fieldName": "k",
+        "member": true,
+        "multiplier": 1699568893,
+        "name": "getCombatLevel",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ap",
+        "fieldName": "m",
+        "member": true,
+        "multiplier": 1380254665,
+        "name": "getId",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ap",
+        "fieldName": "r",
+        "member": true,
+        "multiplier": 0,
+        "name": "getModelIds",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ap",
+        "fieldName": "h",
+        "member": true,
+        "multiplier": 0,
+        "name": "getName",
+        "nonPrimitive": false,
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ap",
+        "fieldName": "ao",
+        "member": true,
+        "multiplier": 0,
+        "name": "getTransformIds",
+        "nonPrimitive": false,
+        "signature": "[I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.cache.composite.INpcComposite",
+    "methods": [],
+    "originalName": "ap"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lap;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "aj",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 0,
+        "name": "getComposite",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/cache/composite/INpcComposite;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.renderable.entity.INpc",
+    "methods": [],
+    "originalName": "aj"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "[Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ar",
+        "fieldName": "aq",
+        "member": true,
+        "multiplier": 0,
+        "name": "getActions",
+        "nonPrimitive": false,
+        "signature": "[Ljava/lang/String;"
+      },
+      {
+        "actualSig": "Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "ar",
+        "fieldName": "z",
+        "member": true,
+        "multiplier": 0,
+        "name": "getName",
+        "nonPrimitive": false,
+        "signature": "Ljava/lang/String;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.cache.composite.IObjectComposite",
+    "methods": [],
+    "originalName": "ar"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fz",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 0,
+        "name": "getAppearance",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "Z",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fz",
+        "fieldName": "a",
+        "member": true,
+        "multiplier": 0,
+        "name": "getFemale",
+        "nonPrimitive": false,
+        "signature": "Z"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fz",
+        "fieldName": "w",
+        "member": true,
+        "multiplier": 942739005,
+        "name": "getNpcId",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.cache.composite.IPlayerComposite",
+    "methods": [],
+    "originalName": "fz"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lfz;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "a",
+        "fieldName": "o",
+        "member": true,
+        "multiplier": 0,
+        "name": "getComposite",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/cache/composite/IPlayerComposite;"
+      },
+      {
+        "actualSig": "Lcp;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "a",
+        "fieldName": "v",
+        "member": true,
+        "multiplier": 0,
+        "name": "getModel",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/cache/media/IModel;"
+      },
+      {
+        "actualSig": "Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "a",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 0,
+        "name": "getName",
+        "nonPrimitive": false,
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "actualSig": "Z",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "a",
+        "fieldName": "t",
+        "member": true,
+        "multiplier": 0,
+        "name": "getVisible",
+        "nonPrimitive": false,
+        "signature": "Z"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.renderable.entity.IPlayer",
+    "methods": [],
+    "originalName": "a"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "i",
+        "fieldName": "m",
+        "member": true,
+        "multiplier": -810867519,
+        "name": "getHeight",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "i",
+        "fieldName": "r",
+        "member": true,
+        "multiplier": -588609769,
+        "name": "getLoopCycle",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Z",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "i",
+        "fieldName": "z",
+        "member": true,
+        "multiplier": 0,
+        "name": "getMoving",
+        "nonPrimitive": false,
+        "signature": "Z"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "i",
+        "fieldName": "e",
+        "member": true,
+        "multiplier": 1237058141,
+        "name": "getTargetID",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "D",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "i",
+        "fieldName": "x",
+        "member": true,
+        "multiplier": 0,
+        "name": "getX",
+        "nonPrimitive": false,
+        "signature": "D"
+      },
+      {
+        "actualSig": "D",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "i",
+        "fieldName": "v",
+        "member": true,
+        "multiplier": 0,
+        "name": "getY",
+        "nonPrimitive": false,
+        "signature": "D"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.renderable.IProjectile",
+    "methods": [],
+    "originalName": "i"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lgo;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "gj",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": 0,
+        "name": "getHead",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/collection/ICacheableNode;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.collection.IQueue",
+    "methods": [],
+    "originalName": "gj"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cn",
+        "fieldName": "cs",
+        "member": true,
+        "multiplier": -695779227,
+        "name": "getHeight",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.renderable.IRenderable",
+    "methods": [],
+    "originalName": "cn"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "[[[Lcu;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cs",
+        "fieldName": "h",
+        "member": true,
+        "multiplier": 0,
+        "name": "getTiles",
+        "nonPrimitive": true,
+        "signature": "[[[Lorg/sbot/runetek/engine/scene/ITile;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.scene.IScene",
+    "methods": [],
+    "originalName": "cs"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lcg;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cu",
+        "fieldName": "i",
+        "member": true,
+        "multiplier": 0,
+        "name": "getBoundaryObject",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/scene/tile/IBoundaryObject;"
+      },
+      {
+        "actualSig": "Lcr;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cu",
+        "fieldName": "l",
+        "member": true,
+        "multiplier": 0,
+        "name": "getFloorObject",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/scene/tile/IFloorObject;"
+      },
+      {
+        "actualSig": "Lca;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cu",
+        "fieldName": "f",
+        "member": true,
+        "multiplier": 0,
+        "name": "getGroundLayer",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/scene/tile/IGroundLayer;"
+      },
+      {
+        "actualSig": "[Lck;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cu",
+        "fieldName": "z",
+        "member": true,
+        "multiplier": 0,
+        "name": "getInteractableObject",
+        "nonPrimitive": true,
+        "signature": "[Lorg/sbot/runetek/engine/scene/tile/IInteractableObject;"
+      },
+      {
+        "actualSig": "Lcd;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cu",
+        "fieldName": "r",
+        "member": true,
+        "multiplier": 0,
+        "name": "getWallObject",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/scene/tile/IWallObject;"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.scene.ITile",
+    "methods": [],
+    "originalName": "cu"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Lcn;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cd",
+        "fieldName": "l",
+        "member": true,
+        "multiplier": 0,
+        "name": "getBackupRenderable",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/IRenderable;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cd",
+        "fieldName": "e",
+        "member": true,
+        "multiplier": -1152974417,
+        "name": "getFlags",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cd",
+        "fieldName": "f",
+        "member": true,
+        "multiplier": -133424889,
+        "name": "getHash",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cd",
+        "fieldName": "w",
+        "member": true,
+        "multiplier": -2051925765,
+        "name": "getOrientation",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Lcn;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cd",
+        "fieldName": "r",
+        "member": true,
+        "multiplier": 0,
+        "name": "getRenderable",
+        "nonPrimitive": true,
+        "signature": "Lorg/sbot/runetek/engine/renderable/IRenderable;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cd",
+        "fieldName": "o",
+        "member": true,
+        "multiplier": -444392959,
+        "name": "getX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "cd",
+        "fieldName": "a",
+        "member": true,
+        "multiplier": -1033450429,
+        "name": "getY",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.scene.tile.IWallObject",
+    "methods": [],
+    "originalName": "cd"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [],
+    "identifiedName": "org.sbot.runetek.engine.media.IWidgetActionNode",
+    "methods": [],
+    "originalName": "n"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "[Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "cj",
+        "member": true,
+        "multiplier": 0,
+        "name": "getActions",
+        "nonPrimitive": false,
+        "signature": "[Ljava/lang/String;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "ed",
+        "member": true,
+        "multiplier": -1567323639,
+        "name": "getBoundsIndex",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "[Lfq;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "ek",
+        "member": true,
+        "multiplier": 0,
+        "name": "getChildren",
+        "nonPrimitive": true,
+        "signature": "[Lorg/sbot/runetek/engine/media/IWidget;"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "dq",
+        "member": true,
+        "multiplier": 0,
+        "name": "getContentIds",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "[I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "dw",
+        "member": true,
+        "multiplier": 0,
+        "name": "getContentStackSizes",
+        "nonPrimitive": false,
+        "signature": "[I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "aq",
+        "member": true,
+        "multiplier": 539675235,
+        "name": "getHeight",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "ey",
+        "member": true,
+        "multiplier": -181409537,
+        "name": "getItemId",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "ea",
+        "member": true,
+        "multiplier": 1867752365,
+        "name": "getItemStackSize",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "eb",
+        "member": true,
+        "multiplier": -1634494295,
+        "name": "getLoopCycleStatus",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "bb",
+        "member": true,
+        "multiplier": -982469919,
+        "name": "getModelId",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "aj",
+        "member": true,
+        "multiplier": -1588791493,
+        "name": "getParentId",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "ap",
+        "member": true,
+        "multiplier": -124837617,
+        "name": "getScrollHeight",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "au",
+        "member": true,
+        "multiplier": -538927815,
+        "name": "getScrollWidth",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "ac",
+        "member": true,
+        "multiplier": 706996303,
+        "name": "getScrollX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "al",
+        "member": true,
+        "multiplier": -650026719,
+        "name": "getScrollY",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "br",
+        "member": true,
+        "multiplier": 0,
+        "name": "getText",
+        "nonPrimitive": false,
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "ad",
+        "member": true,
+        "multiplier": 256982125,
+        "name": "getTextureId",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "v",
+        "member": true,
+        "multiplier": 1582464481,
+        "name": "getUid",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "ag",
+        "member": true,
+        "multiplier": 2096072399,
+        "name": "getWidth",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "g",
+        "member": true,
+        "multiplier": -18591297,
+        "name": "getX",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "fq",
+        "fieldName": "av",
+        "member": true,
+        "multiplier": -591061715,
+        "name": "getY",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.media.IWidget",
+    "methods": [],
+    "originalName": "fq"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "w",
+        "fieldName": "n",
+        "member": true,
+        "multiplier": -1385416029,
+        "name": "getId",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.media.IWidgetNode",
+    "methods": [],
+    "originalName": "w"
+  },
+  {
+    "class": "org.sbot.loader.model.ClassDefinition",
+    "getters": [
+      {
+        "actualSig": "Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "y",
+        "fieldName": "q",
+        "member": true,
+        "multiplier": 0,
+        "name": "getActivity",
+        "nonPrimitive": false,
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "actualSig": "Ljava/lang/String;",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "y",
+        "fieldName": "x",
+        "member": true,
+        "multiplier": 0,
+        "name": "getDomain",
+        "nonPrimitive": false,
+        "signature": "Ljava/lang/String;"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "y",
+        "fieldName": "e",
+        "member": true,
+        "multiplier": 1685233739,
+        "name": "getId",
+        "nonPrimitive": false,
+        "signature": "I"
+      },
+      {
+        "actualSig": "I",
+        "class": "org.sbot.loader.model.GetterDefinition",
+        "fieldClass": "y",
+        "fieldName": "z",
+        "member": true,
+        "multiplier": 438674181,
+        "name": "getMask",
+        "nonPrimitive": false,
+        "signature": "I"
+      }
+    ],
+    "identifiedName": "org.sbot.runetek.engine.IWorld",
+    "methods": [],
+    "originalName": "y"
+  }
+]
+
