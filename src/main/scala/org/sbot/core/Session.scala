@@ -31,7 +31,7 @@ case class Session(applet: Applet) {
   val context: Context = Context(this)
 
   def onPaintEvent(paintEvent: PaintEvent) = {
-    paintEvent.drawString
+
   }
   def getClient(): IClient = applet.asInstanceOf[IClient]
 
