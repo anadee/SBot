@@ -1,0 +1,4 @@
+# SBot
+Scala OS Bot
+
+
