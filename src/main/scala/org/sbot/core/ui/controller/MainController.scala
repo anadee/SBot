@@ -1,10 +1,10 @@
-package org.sbot.ui.controller
+package org.sbot.core.ui.controller
 
 import java.awt.event.{ActionEvent, ActionListener}
 
 import com.google.inject.{Singleton, Inject}
-import org.sbot.ui.model.MainModel
-import org.sbot.ui.view.MainView
+import org.sbot.core.ui.model.MainModel
+import org.sbot.core.ui.view.MainView
 import org.slf4j.LoggerFactory
 
 /**

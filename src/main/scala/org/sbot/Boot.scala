@@ -4,10 +4,10 @@ import java.io.File
 
 import com.google.inject.{Inject, Guice}
 import com.typesafe.config.Config
-import org.sbot.di.{InstanceProvider, Injector}
+import org.sbot.core.di.{InstanceProvider, Injector}
 import org.sbot.loader.ClientLoaderCoordinator
 import org.sbot.loader.actor.Crawler
-import org.sbot.ui.view.MainView
+import org.sbot.core.ui.view.MainView
 /**
  * @author : const_
  */

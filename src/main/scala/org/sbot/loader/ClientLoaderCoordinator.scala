@@ -13,7 +13,7 @@ import akka.util.Timeout
 import com.google.inject.Inject
 import com.typesafe.config.Config
 import org.sbot.loader.actor._
-import org.sbot.ui.view.MainView
+import org.sbot.core.ui.view.MainView
 import org.slf4j.{LoggerFactory, Logger}
 
 import akka.pattern.ask

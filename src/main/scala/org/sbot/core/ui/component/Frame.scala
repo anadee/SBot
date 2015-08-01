@@ -1,4 +1,4 @@
-package org.sbot.ui.component
+package org.sbot.core.ui.component
 
 import javax.swing.JFrame
 

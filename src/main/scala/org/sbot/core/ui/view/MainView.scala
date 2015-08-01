@@ -1,4 +1,4 @@
-package org.sbot.ui.view
+package org.sbot.core.ui.view
 
 import java.applet.Applet
 import java.awt.{BorderLayout, Dimension}
@@ -7,9 +7,9 @@ import javax.swing.JFrame
 import com.google.inject.{Singleton, Inject}
 import com.typesafe.config.Config
 import org.sbot.loader.actor.{ClientGrabber, Crawler}
-import org.sbot.ui.component.{ClientMenuBar, Frame}
-import org.sbot.ui.controller.MainController
-import org.sbot.ui.model.MainModel
+import org.sbot.core.ui.component.{ClientMenuBar, Frame}
+import org.sbot.core.ui.controller.MainController
+import org.sbot.core.ui.model.MainModel
 import org.slf4j.LoggerFactory
 
 

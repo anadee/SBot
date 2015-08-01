@@ -1,4 +1,4 @@
-package org.sbot.ui.component
+package org.sbot.core.ui.component
 
 import java.awt.event.ActionListener
 import javax.swing.{JCheckBoxMenuItem, JMenuItem, JMenu, JMenuBar}

@@ -1,11 +1,11 @@
-package org.sbot.di
+package org.sbot.core.di
 
 import com.google.inject.{Guice, AbstractModule}
 import com.typesafe.config.{ConfigFactory, Config}
 import net.codingwell.scalaguice.ScalaModule
-import org.sbot.ui.controller.MainController
-import org.sbot.ui.model.MainModel
-import org.sbot.ui.view.MainView
+import org.sbot.core.ui.controller.MainController
+import org.sbot.core.ui.model.MainModel
+import org.sbot.core.ui.view.MainView
 
 /**
  * @author : const_

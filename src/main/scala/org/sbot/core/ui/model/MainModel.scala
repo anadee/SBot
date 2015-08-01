@@ -1,8 +1,8 @@
-package org.sbot.ui.model
+package org.sbot.core.ui.model
 
 import com.google.inject.{Singleton, Inject}
-import org.sbot.ui.controller.MainController
-import org.sbot.ui.view.MainView
+import org.sbot.core.ui.controller.MainController
+import org.sbot.core.ui.view.MainView
 
 /**
  * @author : const_
