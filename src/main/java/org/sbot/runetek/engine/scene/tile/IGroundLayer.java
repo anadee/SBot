@@ -9,11 +9,11 @@ import org.sbot.runetek.engine.renderable.IRenderable;
 public interface IGroundLayer {
 
 
-    IRenderable renderable1();
+    IRenderable getRenderable1();
 
 
-    IRenderable renderable2();
+    IRenderable getRenderable2();
 
 
-    IRenderable renderable3();
+    IRenderable getRenderable3();
 }

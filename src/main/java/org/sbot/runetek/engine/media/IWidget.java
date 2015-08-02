@@ -5,46 +5,46 @@ package org.sbot.runetek.engine.media;
  */
 public interface IWidget {
 
-    int scrollX();
+    int getScrollX();
 
-    int scrollY();
+    int getScrollY();
 
-    int uid();
+    int getUid();
 
-    IWidget[] children();
+    IWidget[] getChildren();
 
-    int loopCycleStatus();
+    int getLoopCycleStatus();
 
-    int modelId();
+    int getModelId();
 
-    String[] actions();
+    String[] getActions();
 
-    int width();
+    int getWidth();
 
-    int height();
+    int getHeight();
 
-    int parentId();
+    int getParentId();
 
-    String text();
+    String getText();
 
-    int scrollWidth();
+    int getScrollWidth();
 
-    int scrollHeight();
+    int getScrollHeight();
 
-    int itemId();
+    int getItemId();
 
-    int itemStackSize();
+    int getItemStackSize();
 
-    int textureId();
+    int getTextureId();
 
-    int x();
+    int getX();
 
-    int y();
+    int getY();
 
-    int boundsIndex();
+    int getBoundsIndex();
 
-    int[] contentIds();
+    int[] getContentIds();
 
-    int[] contentStackSizes();
+    int[] getContentStackSizes();
 
 }

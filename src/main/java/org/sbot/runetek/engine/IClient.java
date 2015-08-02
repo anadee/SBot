@@ -16,148 +16,148 @@ import java.awt.*;
  */
 public interface IClient {
 
-    ICache npcCompositeCache();
+    ICache getNpcCompositeCache();
 
 
-    ICache objectCompositeCache();
+    ICache getObjectCompositeCache();
 
 
-    ICache itemCompositeCache();
+    ICache getItemCompositeCache();
 
 
-    int[] sineTable();
+    int[] getSineTable();
 
 
     void setWorld(IWorld world);
 
 
-    int[] cosineTable();
+    int[] getCosineTable();
 
 
-    ICollisionMap[] maps();
+    ICollisionMap[] getMaps();
 
-    IWorld[] worlds();
+    IWorld[] getWorlds();
 
-    IDeque projectiles();
+    IDeque getProjectiles();
 
 
-    IDeque[][][] loot();
+    IDeque[][][] getLoot();
 
 
-    IPlayer[] players();
+    IPlayer[] getPlayers();
 
 
-    IPlayer localPlayer();
+    IPlayer getLocalPlayer();
 
 
-    int cameraX();
+    int getCameraX();
 
 
-    int cameraY();
+    int getCameraY();
 
 
-    int cameraZ();
+    int getCameraZ();
 
 
-    int cameraPitch();
+    int getCameraPitch();
 
 
-    int cameraYaw();
+    int getCameraYaw();
 
 
-    int plane();
+    int getPlane();
 
 
-    INpc[] npcs();
+    INpc[] getNpcs();
 
 
-    int baseX();
+    int getBaseX();
 
 
-    int baseY();
+    int getBaseY();
 
 
-    int[] skillLevels();
+    int[] getSkillLevels();
 
 
-    int[] skillBases();
+    int[] getSkillBases();
 
 
-    int[] skillExperiences();
+    int[] getSkillExperiences();
 
 
-    boolean menuOpen();
+    boolean isMenuOpen();
 
 
-    int menuCount();
+    int getMenuCount();
 
 
-    String[] menuActions();
+    String[] getMenuActions();
 
 
-    String[] menuOptions();
+    String[] getMenuOptions();
 
 
-    int menuX();
+    int getMenuX();
 
 
-    int menuY();
+    int getMenuY();
 
 
-    int menuWidth();
+    int getMenuWidth();
 
 
-    int menuHeight();
+    int getMenuHeight();
 
 
-    int loopCycle();
+    int getLoopCycle();
 
 
-    IScene scene();
+    IScene getScene();
 
 
-    byte[][][] tileSettings();
+    byte[][][] getTileSettings();
 
 
-    int[][][] tileHeights();
+    int[][][] getTileHeights();
 
 
-    int minimapAngle();
+    int getMinimapAngle();
 
 
-    int minimapScale();
+    int getMinimapScale();
 
 
-    int minimapOffset();
+    int getMinimapOffset();
 
 
-    IBag widgetNodeBag();
+    IBag getWidgetNodeBag();
 
 
-    Canvas canvas();
+    Canvas getCanvas();
 
 
-    int loginIndex();
+    int getLoginIndex();
 
 
-    int[] widgetBoundsX();
+    int[] getWidgetBoundsX();
 
 
-    int[] widgetBoundsY();
+    int[] getWidgetBoundsY();
 
 
-    int[] widgetBoundsWidth();
+    int[] getWidgetBoundsWidth();
 
 
-    int[] widgetBoundsHeight();
+    int[] getWidgetBoundsHeight();
 
 
-    int[] widgetSettings();
+    int[] getWidgetSettings();
 
 
-    int[] playerSettings();
+    int[] getPlayerSettings();
 
-    IWidget[][] widgets();
+    IWidget[][] getWidgets();
 
-    ICache npcModelCache();
+    ICache getNpcModelCache();
 }

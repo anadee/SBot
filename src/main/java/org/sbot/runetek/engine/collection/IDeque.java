@@ -5,8 +5,8 @@ package org.sbot.runetek.engine.collection;
  */
 public interface IDeque {
 
-    INode head();
+    INode getHead();
 
-    INode current();
+    INode getCurrent();
 
 }

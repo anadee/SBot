@@ -5,16 +5,16 @@ package org.sbot.runetek.engine.cache.media;
  */
 public interface IModel {
 
-    int[] verticesX();
+    int[] getVerticesX();
 
-    int[] verticesY();
+    int[] getVerticesY();
 
-    int[] verticesZ();
+    int[] getVerticesZ();
 
-    int[] trianglesX();
+    int[] getTrianglesX();
 
-    int[] trianglesY();
+    int[] getTrianglesY();
 
-    int[] trianglesZ();
+    int[] getTrianglesZ();
 
 }

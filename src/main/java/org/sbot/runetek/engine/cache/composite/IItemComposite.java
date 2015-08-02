@@ -7,12 +7,12 @@ import org.sbot.runetek.engine.collection.INode;
  */
 public interface IItemComposite extends INode {
 
-    String name();
+    String getName();
 
-    String[] inventoryActions();
+    String[] getInventoryActions();
 
-    String[] groundActions();
+    String[] getGroundActions();
 
-    int modelId();
+    int getModelId();
 
 }

@@ -9,6 +9,6 @@ import org.sbot.runetek.engine.cache.composite.INpcComposite;
 public interface INpc extends IEntity {
 
 
-    INpcComposite composite();
+    INpcComposite getComposite();
 
 }

@@ -7,23 +7,23 @@ import org.sbot.runetek.engine.renderable.IRenderable;
  */
 public interface IEntity extends IRenderable {
 
-    String message();
+    String getMessage();
 
-    int localX();
+    int getLocalX();
 
-    int localY();
+    int getLocalY();
 
-    int animationId();
+    int getAnimationId();
 
-    int orientation();
+    int getOrientation();
 
-    int currentHealth();
+    int getCurrentHealth();
 
-    int maxHealth();
+    int getMaxHealth();
 
-    int interactingEntity();
+    int getInteractingEntity();
 
-    int queueSize();
+    int getQueueSize();
 
-    int loopCycleStatus();
+    int getLoopCycleStatus();
 }

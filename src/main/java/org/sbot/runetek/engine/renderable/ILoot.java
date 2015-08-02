@@ -6,8 +6,8 @@ package org.sbot.runetek.engine.renderable;
 public interface ILoot extends IRenderable {
 
 
-    int id();
+    int getId();
 
 
-    int stackSize();
+    int getStackSize();
 }

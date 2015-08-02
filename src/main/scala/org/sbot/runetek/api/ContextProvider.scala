@@ -8,6 +8,6 @@ import com.google.inject.Inject
 trait ContextProvider {
 
   @Inject
-  val context: Context = _
+  var context: Context = _
 
 }

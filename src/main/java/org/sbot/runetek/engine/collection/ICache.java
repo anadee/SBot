@@ -5,10 +5,10 @@ package org.sbot.runetek.engine.collection;
  */
 public interface ICache {
 
-    IBag bag();
+    IBag getBag();
 
-    IQueue queue();
+    IQueue getQueue();
 
-    ICacheableNode emptyCacheableNode();
+    ICacheableNode getEmptyCacheableNode();
 
 }

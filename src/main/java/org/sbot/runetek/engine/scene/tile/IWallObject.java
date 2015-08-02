@@ -8,6 +8,6 @@ import org.sbot.runetek.engine.renderable.IRenderable;
  */
 public interface IWallObject extends IGameObject {
 
-    IRenderable backupRenderable();
+    IRenderable getBackupRenderable();
 
 }

@@ -5,14 +5,14 @@ package org.sbot.runetek.engine.collection;
  */
 public interface IBag {
 
-    INode[] cache();
+    INode[] getCache();
 
-    int size();
+    int getSize();
 
-    int currentIndex();
+    int getCurrentIndex();
 
-    INode current();
+    INode getCurrent();
 
-    INode head();
+    INode getHead();
 
 }

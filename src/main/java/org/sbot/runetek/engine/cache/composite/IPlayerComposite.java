@@ -5,6 +5,6 @@ package org.sbot.runetek.engine.cache.composite;
  */
 public interface IPlayerComposite {
 
-    int[] appearance();
+    int[] getAppearance();
 
 }

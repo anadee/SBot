@@ -5,6 +5,6 @@ package org.sbot.runetek.engine.collection;
  */
 public interface IQueue {
 
-    ICacheableNode head();
+    ICacheableNode getHead();
 
 }

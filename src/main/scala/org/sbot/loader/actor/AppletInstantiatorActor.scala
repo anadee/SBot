@@ -8,6 +8,7 @@ import akka.actor.Actor
 import akka.actor.Actor.Receive
 import com.typesafe.config.{ConfigFactory, Config}
 import org.sbot.loader.{ClientStub, ClientClassLoader}
+import org.sbot.runetek.engine.IClient
 import org.slf4j.LoggerFactory
 import sun.applet.AppletClassLoader
 
@@ -17,7 +18,7 @@ import sun.applet.AppletClassLoader
 
 case class LoadApplet(client: File, mainClass: String, crawler: Crawler)
 
-class AppletInstantiator(client: File, mainClass: String, crawler: Crawler) {
+class AppletInstantiator(client: File, mainClass: String, crawler: Crawler, config: Config) {
 
   val logger = LoggerFactory.getLogger(getClass)
 
@@ -40,7 +41,7 @@ class AppletInstantiatorActor extends Actor {
 
   override def receive: Receive = {
     case LoadApplet(client, mainClass, crawler) =>
-      sender ! new AppletInstantiator(client, mainClass.split(".class")(0), crawler).loadApplet()
+      sender ! new AppletInstantiator(client, mainClass.split(".class")(0), crawler, ConfigFactory.load).loadApplet()
       context.stop(self)
   }
 

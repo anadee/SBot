@@ -6,6 +6,6 @@ package org.sbot.runetek.engine.scene;
  */
 public interface ICollisionMap {
 
-    int[][] flags();
+    int[][] getFlags();
 
 }

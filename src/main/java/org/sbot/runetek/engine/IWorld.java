@@ -5,15 +5,15 @@ package org.sbot.runetek.engine;
  */
 public interface IWorld {
 
-    int id();
+    int getId();
 
-    int mask();
+    int getMask();
 
-    String domain();
+    String getDomain();
 
-    int location();
+    int getLocation();
 
-    String activity();
+    String getActivity();
 
-    int population();
+    int getPopulation();
 }

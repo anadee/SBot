@@ -6,6 +6,6 @@ package org.sbot.runetek.engine.scene;
  */
 public interface IScene {
 
-    ITile[][][] tiles();
+    ITile[][][] getTiles();
 
 }

@@ -8,14 +8,14 @@ import org.sbot.runetek.engine.cache.composite.IPlayerComposite;
 public interface IPlayer extends IEntity {
 
 
-    String name();
+    String getName();
 
 
-    IPlayerComposite composite();
+    IPlayerComposite getComposite();
 
 
-    int combatLevel();
+    int getCombatLevel();
 
 
-    boolean visible();
+    boolean getVisible();
 }

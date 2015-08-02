@@ -7,16 +7,16 @@ import org.sbot.runetek.engine.renderable.IRenderable;
  */
 public interface IGameObject {
 
-    int hash();
+    int getHash();
 
-    int x();
+    int getX();
 
-    int y();
+    int getY();
 
-    int orientation();
+    int getOrientation();
 
-    int flags();
+    int getFlags();
 
-    IRenderable renderable();
+    IRenderable getRenderable();
 
 }

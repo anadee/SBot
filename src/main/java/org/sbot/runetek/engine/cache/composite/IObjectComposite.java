@@ -7,12 +7,12 @@ import org.sbot.runetek.engine.collection.INode;
  */
 public interface IObjectComposite extends INode {
 
-    String[] actions();
+    String[] getActions();
 
-    short[] originalModelColors();
+    short[] getOriginalModelColors();
 
-    String name();
+    String getName();
 
-    short[] modifiedModelColors();
+    short[] getModifiedModelColors();
 
 }

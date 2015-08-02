@@ -8,14 +8,14 @@ import org.sbot.runetek.api.functions.Camera
  */
 class CameraImpl() extends ContextProvider with Camera {
 
-  override def getX: Int = context.getClient.cameraX()
+  override def getX: Int = context.getClient.getCameraX()
 
-  override def getY: Int = context.getClient.cameraY()
+  override def getY: Int = context.getClient.getCameraY()
 
-  override def getZ: Int = context.getClient.cameraZ()
+  override def getZ: Int = context.getClient.getCameraZ()
 
-  override def getYaw: Int = context.getClient.cameraYaw()
+  override def getYaw: Int = context.getClient.getCameraYaw()
 
-  override def getPitch: Int = context.getClient.cameraPitch()
+  override def getPitch: Int = context.getClient.getCameraPitch()
 
 }

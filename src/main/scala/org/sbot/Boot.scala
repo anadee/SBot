@@ -1,7 +1,9 @@
 package org.sbot
 
 import java.io.File
+import javax.swing.UIManager
 
+import ch.randelshofer.quaqua.QuaquaLookAndFeel
 import com.google.inject.{Inject, Guice}
 import com.typesafe.config.Config
 import org.sbot.core.di.{InstanceProvider, Injector}
@@ -22,10 +24,10 @@ object Boot {
   val ConfigClientDirKey = "sbot.data.client-dir"
 
   def main(args: Array[String]) {
+    //UIManager.setLookAndFeel(new QuaquaLookAndFeel)
     InstanceProvider.injectMembers(this)
     mkdirs()
     boot.loadFrame()
-    boot.loadClient()
   }
 
   private def mkdirs(): Unit = {
@@ -35,14 +37,10 @@ object Boot {
   }
 }
 
-class Boot @Inject()(mainView: MainView, clientLoaderCoordinator: ClientLoaderCoordinator) {
+class Boot @Inject()(mainView: MainView) {
 
   def loadFrame(): Unit = {
     mainView.init()
-  }
-
-  def loadClient(): Unit = {
-    clientLoaderCoordinator.load()
   }
 }
 

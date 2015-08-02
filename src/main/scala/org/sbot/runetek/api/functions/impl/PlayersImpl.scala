@@ -9,9 +9,9 @@ import org.sbot.runetek.api.wrapper.Player
  */
 class PlayersImpl() extends ContextProvider with Players {
 
-  override def getLoaded: Option[Seq[Player]] = Option(context.getClient.players().filter(_ != null).map(Player))
+  override def getLoaded: Option[Seq[Player]] = Option(context.getClient.getPlayers().filter(_ != null).map(Player))
 
-  override def getMyPlayer: Option[Player] = Option(context.getClient.localPlayer()) match {
+  override def getMyPlayer: Option[Player] = Option(context.getClient.getLocalPlayer()) match {
     case Some (player) => Option(Player(player))
   }
 }

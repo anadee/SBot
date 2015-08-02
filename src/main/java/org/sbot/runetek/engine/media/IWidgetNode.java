@@ -8,6 +8,6 @@ import org.sbot.runetek.engine.collection.INode;
  */
 public interface IWidgetNode extends INode {
 
-    int id();
+    int getId();
 
 }

@@ -6,8 +6,8 @@ package org.sbot.runetek.engine.collection;
 public interface ICacheableNode extends INode {
 
 
-    ICacheableNode next();
+    ICacheableNode getNext();
 
-    ICacheableNode prev();
+    ICacheableNode getPrev();
 
 }

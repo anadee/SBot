@@ -9,7 +9,7 @@ import org.sbot.runetek.engine.collection.ICacheableNode;
 public interface IRenderable extends ICacheableNode {
 
 
-    int height();
+    int getHeight();
 
 
     //Model model();

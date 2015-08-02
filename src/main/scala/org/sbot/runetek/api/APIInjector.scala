@@ -12,7 +12,7 @@ class APIInjector extends AbstractModule with ScalaModule {
   override def configure(): Unit = {
     val config: Config = ConfigFactory.load()
     bind[Config].toInstance(config)
-    bind[Bank]
+    //bind[Bank]
   }
 
 }

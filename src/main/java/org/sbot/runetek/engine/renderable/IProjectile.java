@@ -6,23 +6,23 @@ package org.sbot.runetek.engine.renderable;
 public interface IProjectile extends IRenderable {
 
 
-    int x();
+    int getX();
 
 
-    int y();
+    int getY();
 
 
-    int z();
+    int getZ();
 
 
-    int xVelocity();
+    int getXVelocity();
 
 
-    int yVelocity();
+    int getYVelocity();
 
 
-    int zVelocity();
+    int getZVelocity();
 
 
-    int velocity();
+    int getVelocity();
 }

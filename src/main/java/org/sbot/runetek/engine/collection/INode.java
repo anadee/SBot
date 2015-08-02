@@ -5,10 +5,10 @@ package org.sbot.runetek.engine.collection;
  */
 public interface INode {
 
-    INode next();
+    INode getNext();
 
-    INode prev();
+    INode getPrev();
 
-    long uid();
+    long getUid();
 
 }

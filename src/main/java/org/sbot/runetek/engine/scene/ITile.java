@@ -10,17 +10,17 @@ import org.sbot.runetek.engine.scene.tile.*;
 public interface ITile extends INode {
 
 
-    IGroundLayer groundLayer();
+    IGroundLayer getGroundLayer();
 
 
-    IInteractableObject[] interactableObjects();
+    IInteractableObject[] getInteractableObjects();
 
 
-    IBoundaryObject boundaryObject();
+    IBoundaryObject getBoundaryObject();
 
 
-    IWallObject wallObject();
+    IWallObject getWallObject();
 
 
-    IFloorObject floorObject();
+    IFloorObject getFloorObject();
 }

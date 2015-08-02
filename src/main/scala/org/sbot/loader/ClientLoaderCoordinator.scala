@@ -2,7 +2,9 @@ package org.sbot.loader
 
 import org.objectweb.asm.tree.ClassNode
 import org.sbot.core.Sessions
+import org.sbot.core.ui.model.MainModel
 import org.sbot.loader.model.ClassDefinition
+import org.sbot.runetek.engine.IClient
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import java.applet.Applet
@@ -25,7 +27,7 @@ import scala.util.{Failure, Success}
 /**
  * @author : const_
  */
-class ClientLoaderCoordinator @Inject()(config: Config, mainView: MainView) {
+case class ClientLoaderCoordinator(config: Config, mainView: MainView, mainModel: MainModel) {
 
   val logger = LoggerFactory.getLogger(getClass)
   val system = ActorSystem(getClass.getSimpleName)
@@ -35,12 +37,15 @@ class ClientLoaderCoordinator @Inject()(config: Config, mainView: MainView) {
   val ConfigHomeDirKey = "sbot.data.home-dir"
   val ConfigClientDirKey = "sbot.data.client-dir"
   val ConfigInjectedSuffixKey = "sbot.data.injected-suffix"
+  val ConfigCanvasTimeoutKey = "sbot.loader.canvas-timeout"
+
+  val CanvasTimeout = config.getInt(ConfigCanvasTimeoutKey)
 
   val CrawlerTimeout = config.getInt(ConfigCrawlerTimeoutKey)
 
   implicit  val GlobalTimeout = Timeout(config.getInt(ConfigGlobalTimeoutKey) seconds)
 
-  def getInjectedFile(version: Int) = new File(System.getProperty("user.home") +
+  private def getInjectedFile(version: Int) = new File(System.getProperty("user.home") +
     config.getString(ConfigHomeDirKey) + config.getString(ConfigClientDirKey)
     + version + config.getString(ConfigInjectedSuffixKey) +".jar")
 
@@ -71,8 +76,12 @@ class ClientLoaderCoordinator @Inject()(config: Config, mainView: MainView) {
 
     applet onComplete {
       case Success(loadedApplet) =>
-        Sessions.addSession(loadedApplet)
-        mainView.setApplet(loadedApplet)
+        logger.info(s"Waiting for canvas to be created")
+        val startTime = System.currentTimeMillis()
+        while(loadedApplet.asInstanceOf[IClient].getCanvas == null && ((System.currentTimeMillis() - startTime) / 1000) < CanvasTimeout) {
+          Thread.sleep(500)
+        }
+        mainModel.addTab(loadedApplet)
       case Failure(ex)           => logger.error(s"Error loading applet", ex)
     }
 

@@ -7,18 +7,18 @@ import org.sbot.runetek.engine.collection.INode;
  */
 public interface INpcComposite extends INode {
 
-    String name();
+    String getName();
 
-    String[] actions();
+    String[] getActions();
 
-    int[] modelIds();
+    int[] getModelIds();
 
-    int realId();
+    int getRealId();
 
-    int[] transformIds();
+    int[] getTransformIds();
 
-    int id();
+    int getId();
 
-    int combatLevel();
+    int getCombatLevel();
 
 }

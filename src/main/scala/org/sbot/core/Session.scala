@@ -4,7 +4,7 @@ import java.applet.Applet
 
 import org.sbot.runetek.api.Context
 import org.sbot.runetek.engine.IClient
-import org.sbot.framework.evt.{PaintEvent, PaintGameEvent}
+import org.sbot.framework.evt.{PaintEvent}
 
 import scala.collection.mutable
 
@@ -18,7 +18,7 @@ object Sessions {
 
   def addSession(applet: Applet) = {
     val session = Session(applet)
-    sessions.put(session.getClient().canvas().hashCode(), session)
+    sessions.put(session.getClient().getCanvas().hashCode(), session)
   }
 
   def getSession(hashCode: Int): Option[Session] = {
@@ -33,6 +33,8 @@ case class Session(applet: Applet) {
   def onPaintEvent(paintEvent: PaintEvent) = {
 
   }
+
+  def canvasHash = getClient().getCanvas().hashCode()
 
   def getClient(): IClient = applet.asInstanceOf[IClient]
 
