@@ -3,8 +3,8 @@ package org.sbot
 import java.io.File
 import javax.swing.UIManager
 
-import ch.randelshofer.quaqua.QuaquaLookAndFeel
 import com.google.inject.{Inject, Guice}
+import com.pagosoft.plaf.PgsLookAndFeel
 import com.typesafe.config.Config
 import org.sbot.core.di.{InstanceProvider, Injector}
 import org.sbot.loader.ClientLoaderCoordinator
@@ -24,7 +24,7 @@ object Boot {
   val ConfigClientDirKey = "sbot.data.client-dir"
 
   def main(args: Array[String]) {
-    //UIManager.setLookAndFeel(new QuaquaLookAndFeel)
+    UIManager.setLookAndFeel(new PgsLookAndFeel)
     InstanceProvider.injectMembers(this)
     mkdirs()
     boot.loadFrame()

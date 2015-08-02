@@ -5,7 +5,7 @@ import java.awt.event.{ActionEvent, ActionListener}
 import com.google.inject.{Singleton, Inject}
 import com.typesafe.config.Config
 import org.sbot.core.ui.ActionCommands
-import org.sbot.core.ui.component.tab.GameTab
+import org.sbot.core.ui.component.tab.{AddTab, GameTab}
 import org.sbot.core.ui.model.MainModel
 import org.sbot.core.ui.view.MainView
 import org.sbot.loader.ClientLoaderCoordinator
@@ -29,11 +29,13 @@ class MainController @Inject()(config: Config) extends ActionListener {
   override def actionPerformed(evt: ActionEvent): Unit = {
     evt.getActionCommand match {
       case ActionCommands.AddTab =>
-        println(clientLoaderCoordinator)
         clientLoaderCoordinator.load()
+        view.clientTabToolBar.getComponents.find(_.isInstanceOf[AddTab]).head.setEnabled(false)
       case ActionCommands.SelectTab =>
         val gameTab = evt.getSource.asInstanceOf[GameTab]
-      case _ => logger.error(s"Unhandled event $evt")
+        model.setSelectedTab(gameTab)
+      case _ =>
+        logger.error(s"Unhandled event $evt")
 
     }
   }

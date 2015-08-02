@@ -28,19 +28,28 @@ class MainModel @Inject()(config: Config) {
   val logger = LoggerFactory.getLogger(getClass)
 
   var selectedTab: Option[GameTab] = None
-  val tabs: IndexedSeq[GameTab] = scala.collection.mutable.IndexedSeq()
+  val tabs: scala.collection.mutable.MutableList[GameTab] = scala.collection.mutable.MutableList()
 
   val ConfigMinWidthKey = "sbot.displaypanel.min-width"
   val ConfigMinHeightKey = "sbot.displaypanel.min-height"
 
+  val MinWidth = config.getInt(ConfigMinWidthKey)
+  val MinHeight = config.getInt(ConfigMinHeightKey)
+
   def addTab(applet: Applet) = {
     logger.info(s"Adding applet to main view: $applet")
-    applet.setSize(new Dimension(config.getInt(ConfigMinWidthKey), config.getInt(ConfigMinHeightKey)))
+
+    applet.setSize(new Dimension(MinWidth, MinHeight))
+    applet.setMinimumSize(new Dimension(MinWidth, MinHeight))
+    applet.setPreferredSize(new Dimension(MinWidth, MinHeight))
+
     Sessions.addSession(applet)
-    println(applet)
-    val gameTab = new GameTab("GameTab", AppletContainer(applet),
+
+    val gameTab: GameTab = new GameTab("GameTab", AppletContainer(applet),
       Sessions.getSession(applet.asInstanceOf[IClient].getCanvas().hashCode())
         .getOrElse(throw SessionNotFoundException(s"Unable to find session")), controller)
+
+    tabs += gameTab
     view.addTab(gameTab)
     setSelectedTab(gameTab)
   }

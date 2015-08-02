@@ -18,7 +18,7 @@ libraryDependencies += "io.spray" %%  "spray-json" % "1.3.2"
 
 libraryDependencies += "org.ow2.asm" % "asm-debug-all" % "5.0.4"
 
-libraryDependencies += "org.devzendo" % "Quaqua" % "7.3.4"
+libraryDependencies += "com.github.arnabk" % "pgslookandfeel" % "1.1.4"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-kernel" % akkaVersion,

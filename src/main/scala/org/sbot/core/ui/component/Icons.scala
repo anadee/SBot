@@ -13,5 +13,7 @@ object Icons {
   val User = new ImageIcon(ImageIO.read(getClass.getResourceAsStream("/icon/user.png")))
   val Stop = new ImageIcon(ImageIO.read(getClass.getResourceAsStream("/icon/stop.png")))
   val Start = new ImageIcon(ImageIO.read(getClass.getResourceAsStream("/icon/play.png")))
+  val Enabled = new ImageIcon(ImageIO.read(getClass.getResourceAsStream("/icon/enabled.png")))
+  val Disabled = new ImageIcon(ImageIO.read(getClass.getResourceAsStream("/icon/disabled.png")))
 
 }

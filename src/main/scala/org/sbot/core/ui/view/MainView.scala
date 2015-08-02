@@ -2,6 +2,7 @@ package org.sbot.core.ui.view
 
 import java.applet.Applet
 import java.awt.{BorderLayout, Dimension}
+import javafx.geometry.VerticalDirection
 import javax.swing._
 
 import com.google.inject.{Singleton, Inject}
@@ -45,12 +46,13 @@ class MainView @Inject()(config: Config) extends Frame {
     if(displayPanel.getComponents.length > 0) {
       displayPanel.remove(0)
     }
+    model.tabs.foreach(_.setEnabled(true))
+    gameTab.setEnabled(false)
     displayPanel.add(gameTab.appletContainer)
     revalidate()
   }
 
   def addTab(gameTab: GameTab) = {
-    import scala.collection.JavaConversions._
     val addTabIndex = clientTabToolBar.getComponentIndex(clientTabToolBar.getComponents.find(_.isInstanceOf[AddTab]).head)
     clientTabToolBar.remove(addTabIndex)
     clientTabToolBar.add(gameTab, addTabIndex)
@@ -59,11 +61,7 @@ class MainView @Inject()(config: Config) extends Frame {
     gameTab.setEnabled(false)
     val separatorIndex = clientTabToolBar.getComponentIndex(clientTabToolBar.getComponents.find(_.isInstanceOf[JSeparator]).head)
     clientTabToolBar.remove(separatorIndex)
-    val separator = new JSeparator()
-    clientTabToolBar.setMaximumSize(new Dimension(separator.getWidth - 28, 10))
-    clientTabToolBar.setPreferredSize(new Dimension(separator.getWidth - 28, 10))
-    clientTabToolBar.setMinimumSize(new Dimension(separator.getWidth - 28, 10))
-    clientTabToolBar.add(separator, separatorIndex + model.tabs.size)
+    clientTabToolBar.add(Box.createHorizontalGlue(), separatorIndex - model.tabs.size)
   }
 
   def init(): Unit = {
@@ -89,44 +87,33 @@ class MainView @Inject()(config: Config) extends Frame {
 
     getContentPane.add(displayPanel, BorderLayout.CENTER)
 
-//    val overviewTab: OverviewTab = new OverviewTab
-//    toolBar.add(overviewTab)
     val addTab: AddTab = new AddTab(controller)
     clientTabToolBar.add(addTab)
-    //tabs.add(overviewTab)
-    //overviewTab.setEnabled(false)
-    clientTabToolBar.add(createSeparator)
+
+    clientTabToolBar.add(Box.createHorizontalGlue())
 
     btnRunScript.setIcon(Icons.Start)
     btnRunScript.setActionCommand(ActionCommands.RunScript)
     btnRunScript.addActionListener(controller)
     clientTabToolBar.add(btnRunScript)
-    clientTabToolBar.addSeparator(new Dimension(5, 10))
+    clientTabToolBar.addSeparator(new Dimension(5, clientTabToolBar.getHeight))
 
     btnStopScript.setIcon(Icons.Stop)
     btnStopScript.setEnabled(false)
     btnStopScript.setActionCommand(ActionCommands.StopScript)
     btnStopScript.addActionListener(controller)
     clientTabToolBar.add(btnStopScript)
-    clientTabToolBar.addSeparator(new Dimension(5, 10))
+    clientTabToolBar.addSeparator(new Dimension(5, clientTabToolBar.getHeight))
 
-    //btnInput.setIcon(Icons.ENABLED)
+    btnInput.setIcon(Icons.Enabled)
     btnInput.setActionCommand(ActionCommands.InputToggle)
     btnInput.addActionListener(controller)
     clientTabToolBar.add(btnInput)
-    clientTabToolBar.addSeparator(new Dimension(5, 10))
+    clientTabToolBar.addSeparator(new Dimension(5, clientTabToolBar.getHeight))
 
+    btnRender.setIcon(Icons.Enabled)
     btnRender.setActionCommand(ActionCommands.RenderToggle)
     btnRender.addActionListener(controller)
-    //btnRender.setIcon(Icons.ENABLED)
     clientTabToolBar.add(btnRender)
-  }
-
-  def createSeparator = {
-    val separator = new JSeparator()
-    separator.setMaximumSize(new Dimension(480, 10))
-    separator.setPreferredSize(new Dimension(480, 10))
-    separator.setMinimumSize(new Dimension(480, 10))
-    separator
   }
 }
